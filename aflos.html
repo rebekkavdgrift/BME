@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title> Aflos OK Reinier de Graaf</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Document</title>
+ <style>
+     table, th, td {
+         border: 2.5px solid black;
+         border-collapse: collapse;
+         text-align: center;
+     }
+ 
+    tr:nth-child(even) {
+         background-color: white
+    }
+
+    tr:nth-child(3) {
+        background-color:#B7d7FF
+    }
+    tr:nth-child(5) {
+        background-color:#B7d7FF
+    }
+    tr:nth-child(7) {
+        background-color:#B7d7FF
+    }
+    tr:nth-child(9) {
+        background-color:#B7d7FF
+    }
+    #zelf {
+        background-color: #e6ffe6
+    }
+    table, th, td {
+        padding: 10px
+    }
+       
+  
+</style>
+<style type="text/css">
+   input.largerCheckbox
+   {
+   border-color: #FF7777;
+   width: 25px;
+   height: 25px;
+   display: inline-block
+   }
+</style>
+
+
+
+</head>
+<body>
+ <table style: "width:100%" id="table 1">
+     <tr >
+         <th colspan ="9"> <h1> Schema aflos
+                 <!DOCTYPE html>
+                 <html lang="en">
+                 <head>
+                     <meta charset="UTF-8">
+                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                     <title>Document</title>
+                 </head>
+                 <body>
+                     <div id="time"> </div>
+                     <script>
+                     function updateClock() {
+                     var now = new Date(),
+                         months = ['Januari', 'Februari', 'Maart', 'April', 'Mei', 'Juni', 'Juli', 'Augusus', 'September', 'October', 'November', 'December']
+                         time = now.getHours() + ':' + ('00'+now.getMinutes()).slice(-2);
+                         date = [now.getDate(),
+                                 months[now.getMonth()],
+                                 now.getFullYear()].join(' ');
+                     document.getElementById('time').innerHTML = [date, time].join('   ');
+                     setTimeout(updateClock, 1000);
+                 }
+                 updateClock();
+                     </script>
+                 </body>
+                 </html>
+         </h1> </td>
+     </tr>
+     <tr>
+         <th id="OK">OK</th>
+         <th>Aflos chirurgie</th>
+         <th>Aflos anesthesie</th>
+         <th>Zelf</th>
+         <th colspan ="2">OK Chirurgie</th>
+         <th> OK Anesthesie</th>
+     </tr>
+     <tr>
+         <td>1</td>
+         <td id="i11"onclick="i11()"><input type="text" style="background: transparent" id="AC1"></td>
+         <td id="i12"onclick="i12()"><input type="text" style="background: transparent" id="AA1"></td>
+         <td> <form action="./"><input type="checkbox" class="largerCheckbox" name="checkBox"></form></td>
+         <td id="i13"onclick="i13()"><input type="text" style="background: transparent" id="C11"></td>
+         <td id="i14"onclick="i14()"><input type="text" style="background: transparent" id="C21"></td>
+         <td id="i15"onclick="i15()"><input type="text" style="background: transparent" id="A1"></td>
+     </tr>
+     <tr>
+         <td>2</td>
+         <td id="i21"onclick="i21()"><input type="text" style="background: transparent" id="AC2"></td>
+         <td id="i22"onclick="i22()"><input type="text" style="background: transparent" id="AA2"></td>
+         <td> <form action="./"><input type="checkbox" class="largerCheckbox" name="checkBox"></form></td>
+         <td id="i23"onclick="i23()"><input type="text" style="background: transparent" id="C12"></td>
+         <td id="i24"onclick="i24()"><input type="text" style="background: transparent" id="C22"></td>
+         <td id="i25"onclick="i25()"><input type="text" style="background: transparent" id="A2"></td>
+     </tr>
+     <tr>
+         <td>3</td>
+         <td id="i31"onclick="i31()"><input type="text" style="background: transparent" id="AC3"></td>
+         <td id="i32"onclick="i32()"><input type="text" style="background: transparent" id="AA3"></td>
+         <td> <form action="./"><input type="checkbox" class="largerCheckbox" name="checkBox"></form></td>
+         <td id="i33"onclick="i33()"><input type="text" style="background: transparent" id="C13"></td>
+         <td id="i34"onclick="i34()"><input type="text" style="background: transparent" id="C23"></td>
+         <td id="i35"onclick="i35()"><input type="text" style="background: transparent" id="A3"></td>
+     </tr>
+     <tr>
+         <td>4</td>
+         <td id="i41"onclick="i41()"><input type="text" style="background: transparent" id="AC4"></td>
+         <td id="i42"onclick="i42()"><input type="text" style="background: transparent" id="AA4"></td>
+         <td> <form action="./"><input type="checkbox" class="largerCheckbox" name="checkBox"></form></td>
+         <td id="i43"onclick="i43()"><input type="text" style="background: transparent" id="C14"></td>
+         <td id="i44"onclick="i44()"><input type="text" style="background: transparent" id="C24"></td>
+         <td id="i45"onclick="i45()"><input type="text" style="background: transparent" id="A4"></td>
+     </tr>
+     <tr>
+         <td>5</td>
+         <td id="i51"onclick="i51()"><input type="text" style="background: transparent" id="AC5"></td>
+         <td id="i52"onclick="i52()"><input type="text" style="background: transparent" id="AA5"></td>
+         <td> <form action="./"><input type="checkbox" class="largerCheckbox" name="checkBox"></form></td>
+         <td id="i53"onclick="i53()"><input type="text" style="background: transparent" id="C15"></td>
+         <td id="i54"onclick="i54()"><input type="text" style="background: transparent" id="C25"></td>
+         <td id="i55"onclick="i55()"><input type="text" style="background: transparent" id="A5"></td>
+     </tr>
+     <tr>
+         <td>6</td>
+         <td id="i61"onclick="i61()"><input type="text" style="background: transparent" id="AC6"></td>
+         <td id="i62"onclick="i62()"><input type="text" style="background: transparent" id="AA6"></td>
+         <td> <form action="./"><input type="checkbox" class="largerCheckbox" name="checkBox"></form></td>
+         <td id="i63"onclick="i63()"><input type="text" style="background: transparent" id="C16"></td>
+         <td id="i64"onclick="i64()"><input type="text" style="background: transparent" id="C26"></td>
+         <td id="i65"onclick="i65()"><input type="text" style="background: transparent" id="A6"></td>
+     </tr>
+     <tr>
+         <td>7</td>
+         <td id="i71"onclick="i71()"><input type="text" style="background: transparent" id="AC7"></td>
+         <td id="i72"onclick="i72()"><input type="text" style="background: transparent" id="AA7"></td>
+         <td> <form action="./"><input type="checkbox" class="largerCheckbox" name="checkBox"></form></td>
+         <td id="i73"onclick="i73()"><input type="text" style="background: transparent" id="C17"></td>
+         <td id="i74"onclick="i74()"><input type="text" style="background: transparent" id="C27"></td>
+         <td id="i75"onclick="i75()"><input type="text" style="background: transparent" id="A7"></td>
+     </tr>
+     <tr>
+         <td>8</td>
+         <td id="i81"onclick="i81()"><input type="text" style="background: transparent" id="AC8"></td>
+         <td id="i82"onclick="i82()"><input type="text" style="background: transparent" id="AA8"></td>
+         <td> <form action="./"><input type="checkbox" class="largerCheckbox" name="checkBox"></form></td>
+         <td id="i83"onclick="i83()"><input type="text" style="background: transparent" id="C18"></td>
+         <td id="i84"onclick="i84()"><input type="text" style="background: transparent" id="C28"></td>
+         <td id="i85"onclick="i85()"><input type="text" style="background: transparent" id="A8"></td>
+     </tr>
+     <tr> </tr>
+       <td><h3>Notities</h3></td>
+       <td colspan="8" style="background-color:beige"> <textarea name="Notities" id="Notities" cols="135" rows="5" style="background-color:transparent"> </textarea> </td>
+
+
+<script src="kleuren.js"></script>
+<script src="local.js"></script>
+
+<input type="button" id="Klik" value="Data verwijderen">
+<script>
+   document.getElementById("Klik").onclick = function() {myFunction()};
+   function myFunction() {
+       localStorage.clear();
+   }
+</script>
+      
+</body>
+</html>
+
+
+
+
+
+
